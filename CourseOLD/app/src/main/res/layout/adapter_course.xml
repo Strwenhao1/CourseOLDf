@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table_shape"
+    android:layout_margin="15dp"
+    android:orientation="horizontal" >
+   
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/course"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView 
+        android:id="@+id/adapter_course_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/ListText"
+        android:paddingLeft="10dp"
+        android:gravity="left"
+        />
+    <Button 
+        android:id="@+id/adapter_course_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_icon_delete"
+        android:layout_marginLeft="6dp"
+        android:contentDescription="删除"
+        />
+    <Button 
+        android:id="@+id/adapter_course_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_icon_detail"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="详情"
+        />
+</LinearLayout>
